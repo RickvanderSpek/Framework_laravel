@@ -6,16 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="/maak_wish">Create wens</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/update_wish">update wens</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/delete_wish">delete wens</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="/wishes">view wensen</a>
+                <a class="nav-link" href="/beheer">beheer</a>
             </li>
         </ul>
     </div>
