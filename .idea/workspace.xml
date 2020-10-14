@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb7790ad-2331-4271-8ab7-6a68d352c78a" name="Default Changelist" comment="" />
+    <list default="true" id="cb7790ad-2331-4271-8ab7-6a68d352c78a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/beheer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WishesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_10_215525_create_wishes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_10_215525_create_wishes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/delete_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/delete_wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/maak_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/maak_wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/update_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/update_wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/wishes.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +28,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -113,7 +132,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wishlist" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -123,6 +142,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ricki\wishlist_frm\public\storage\uploads" />
+      <recent name="C:\Users\ricki\wishlist_frm\storage\app\public" />
       <recent name="C:\Users\ricki\wishlist_frm\resources\views" />
       <recent name="C:\Users\ricki\wishlist_frm\resources\views\inc" />
     </key>
@@ -147,6 +168,16 @@
       <workItem from="1599948278239" duration="1569000" />
       <workItem from="1600066652660" duration="14923000" />
       <workItem from="1600167354915" duration="2554000" />
+      <workItem from="1600679626257" duration="5548000" />
+      <workItem from="1600722408209" duration="25952000" />
+      <workItem from="1600893460337" duration="9460000" />
+      <workItem from="1601284160017" duration="67000" />
+      <workItem from="1601291147665" duration="655000" />
+      <workItem from="1601461362570" duration="19927000" />
+      <workItem from="1601885451800" duration="268000" />
+      <workItem from="1601888035696" duration="606000" />
+      <workItem from="1602491671769" duration="151000" />
+      <workItem from="1602671218902" duration="1516000" />
     </task>
     <servers />
   </component>
@@ -154,13 +185,36 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="932" y="180" key="FileChooserDialogImpl" timestamp="1599743596104">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600893110774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="932" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599743596104" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1600167357454">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600893110774" />
+    <state x="932" y="180" key="FileChooserDialogImpl" timestamp="1600894271519">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1600167357454" />
+    <state x="932" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600894271519" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602671301468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602671301468" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1601483853268">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1601483853268" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/config/filesystems.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/home.blade.php</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

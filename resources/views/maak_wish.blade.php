@@ -12,12 +12,17 @@
                             <div class="alert alert-success" role="alert">
                                 {{ session('status') }}
                             </div>
+
                         @endif
 
                         @include('inc.messages')
 
 
-                            <form method="post" action= "/maak_wish/submit">
+
+
+
+
+                            <form method="post" action="/maak_wish/submit" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
                                     <label for="formGroupExampleInput">wens</label>
@@ -25,7 +30,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="formGroupExampleInput2">Foto</label>
-                                    <input name="foto" type="text" class="form-control" id="formGroupExampleInput2">
+                                    <input type="file" name="foto">
                                 </div>
                                 <div class="form-group">
                                     <label for="formGroupExampleInput2">Bericht</label>
@@ -43,8 +48,14 @@
                                     <label for="formGroupExampleInput2">Bericht</label>
                                     <input name="bericht" type="text" class="form-control" id="formGroupExampleInput2" style="height: 150px">
                                 </div>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput2">Bericht</label>
+                                    <input name="userId" value="{{Auth::user()->id}}" type="hidden" class="form-control" id="formGroupExampleInput2" style="height: 150px">
+                                </div>
+
                                 <button type="submit">Verzend</button>
                             </form>
+
 
 
 

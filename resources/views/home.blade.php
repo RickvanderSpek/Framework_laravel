@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Welkom Op de wish list
                 </div>
             </div>
         </div>

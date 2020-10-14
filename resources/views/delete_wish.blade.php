@@ -7,9 +7,17 @@
         @csrf
         <select name="lijst_wensen">
         @if(count($wishes) > 0)
-            @foreach($wishes as $wish)
-                <option value="{{$wish->wens}}">{{$wish->wens}}</option>
-            @endforeach
+                @if(Auth::user()->role == 0)
+                    @foreach($wishes as $wish)
+                        @if($wish->userId == Auth::user()->id)
+                            <option value="{{$wish->wens}}">{{$wish->wens}}</option>
+                        @endif
+                    @endforeach
+                @elseif(Auth::user()->role == 1)
+                    @foreach($wishes as $wish)
+                        <option value="{{$wish->wens}}">{{$wish->wens}}</option>
+                    @endforeach
+                @endif
         @endif
         </select>
         <button type="submit">delete</button>

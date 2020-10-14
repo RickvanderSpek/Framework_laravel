@@ -3,9 +3,10 @@
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
-
 class CreateWishesTable extends Migration
 {
+
+
     /**
      * Run the migrations.
      *
@@ -20,6 +21,7 @@ class CreateWishesTable extends Migration
             $table->string('prijs');
             $table->string('link');
             $table->string('bericht');
+            $table->integer('userId');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();
         });

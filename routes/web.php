@@ -15,13 +15,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/maak_wish', function () {
-    return view('maak_wish');
-});
-
 Route::get('/update_wish', function () {
     return view('update_wish');
 });
+
+Route::get('/maak_wish', 'WishesController@showUsers');
 
 Route::get('/update_wish', 'WishesController@printWishes');
 
@@ -34,10 +32,13 @@ Route::post('/delete_wish/delete', 'WishesController@verwijderWishes');
 
 Auth::routes();
 
-Route::get('/wishes', 'WishesController@getWishes');
+
+Route::get('/beheer', 'WishesController@beheerWishes');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/home', 'Wishescontroller@homeWishes');
 
 Route::post('/maak_wish/submit', 'WishesController@submit');
 

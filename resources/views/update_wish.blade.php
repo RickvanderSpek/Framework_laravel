@@ -5,7 +5,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header">Maak een wens</div>
+                    <div class="card-header">wens veranderen</div>
 
                     <div class="card-body">
                         @if (session('status'))
@@ -17,22 +17,30 @@
                         @include('inc.messages')
 
 
-                        <form method="post" action= "/update_wish/update">
+                        <form method="post" action="/update_wish/update" enctype="multipart/form-data">
                             @csrf
-                            <select name="wens">
+                            <select name="oude_wens">
                                 @if(count($wishes) > 0)
-                                    @foreach($wishes as $wish)
-                                        <option value="{{$wish->wens}}">{{$wish->wens}}</option>
-                                    @endforeach
+                                    @if(Auth::user()->role == 0)
+                                        @foreach($wishes as $wish)
+                                            @if($wish->userId == Auth::user()->id)
+                                                <option value="{{$wish->wens}}">{{$wish->wens}}</option>
+                                            @endif
+                                        @endforeach
+                                    @elseif(Auth::user()->role == 1)
+                                        @foreach($wishes as $wish)
+                                            <option value="{{$wish->wens}}">{{$wish->wens}}</option>
+                                        @endforeach
+                                    @endif
                                 @endif
                             </select>
                             <div class="form-group">
                                 <label for="formGroupExampleInput2">wens</label>
-                                <input name="naam_wens" type="text" class="form-control" id="formGroupExampleInput2">
+                                <input name="nieuwe_wens" type="text" class="form-control" id="formGroupExampleInput2">
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput2">Foto</label>
-                                <input name="foto" type="text" class="form-control" id="formGroupExampleInput2">
+                                <input type="file" name="foto">
                             </div>
                             <div class="form-group">
                                 <label for="formGroupExampleInput2">Bericht</label>
