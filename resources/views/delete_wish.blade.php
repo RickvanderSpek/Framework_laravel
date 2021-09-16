@@ -5,7 +5,7 @@
 
     <form action="delete_wish/delete" method="post">
         @csrf
-        <select name="lijst_wensen">
+        <select name="lijst_posts">
         @if(count($wishes) > 0)
                 @if(Auth::user()->role == 0)
                     @foreach($wishes as $wish)

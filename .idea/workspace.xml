@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb7790ad-2331-4271-8ab7-6a68d352c78a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/beheer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WishesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WishesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_10_215525_create_wishes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_10_215525_create_wishes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/delete_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/delete_wish.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/inc/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/inc/header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/maak_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/maak_wish.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/update_wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/update_wish.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/wishes.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,13 +120,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wishlist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../marktplaats" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -177,7 +166,11 @@
       <workItem from="1601885451800" duration="268000" />
       <workItem from="1601888035696" duration="606000" />
       <workItem from="1602491671769" duration="151000" />
-      <workItem from="1602671218902" duration="1516000" />
+      <workItem from="1602671218902" duration="2213000" />
+      <workItem from="1602676548266" duration="117000" />
+      <workItem from="1606085989729" duration="419000" />
+      <workItem from="1606126657082" duration="19418000" />
+      <workItem from="1607431429494" duration="1711000" />
     </task>
     <servers />
   </component>
@@ -189,14 +182,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600893110774" />
-    <state x="932" y="180" key="FileChooserDialogImpl" timestamp="1600894271519">
+    <state x="932" y="180" key="FileChooserDialogImpl" timestamp="1607431634936">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="932" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1600894271519" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602671301468">
+    <state x="932" y="180" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607431634936" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1602676628667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602671301468" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1602676628667" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1601483853268">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

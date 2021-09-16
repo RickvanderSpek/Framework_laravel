@@ -33,10 +33,6 @@
                                     <input type="file" name="foto">
                                 </div>
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput2">Bericht</label>
-                                    <input name="bericht" type="text" class="form-control" id="formGroupExampleInput2">
-                                </div>
-                                <div class="form-group">
                                     <label for="formGroupExampleInput2">Prijs</label>
                                     <input name="prijs" type="text" class="form-control" id="formGroupExampleInput2">
                                 </div>
@@ -49,7 +45,6 @@
                                     <input name="bericht" type="text" class="form-control" id="formGroupExampleInput2" style="height: 150px">
                                 </div>
                                 <div class="form-group">
-                                    <label for="formGroupExampleInput2">Bericht</label>
                                     <input name="userId" value="{{Auth::user()->id}}" type="hidden" class="form-control" id="formGroupExampleInput2" style="height: 150px">
                                 </div>
 

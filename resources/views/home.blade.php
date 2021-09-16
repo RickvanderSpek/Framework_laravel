@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    Welkom Op de wish list
+                    Ga naar beheer om wensen te maken/veranderen/bekijken of te verwijderen<br>
+                    Als je naar de database gaat kan je jezelf admin maken doormiddel van de<br>
+                    <h5>role van 0 naar 1 te veranderen in de user tabel</h5> dan kan je iedereens wensen zien
                 </div>
             </div>
         </div>

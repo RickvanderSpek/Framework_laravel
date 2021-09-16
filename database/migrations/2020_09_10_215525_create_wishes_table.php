@@ -20,7 +20,7 @@ class CreateWishesTable extends Migration
             $table->string('foto');
             $table->string('prijs');
             $table->string('link');
-            $table->string('bericht');
+            $table->mediumText('bericht');
             $table->integer('userId');
             $table->timestamp('created_at')->nullable();
             $table->timestamp('updated_at')->nullable();

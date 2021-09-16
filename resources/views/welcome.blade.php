@@ -79,6 +79,13 @@
                 </div>
             @endif
 
+            <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-3">Hallo gebruiker,</h1>
+    <p class="lead">Als je de website wishlist wilt gebruiken zul je een account moeten aanmaken.<br> Eenmaal ingelogt kun je jouw eigen wens maken/update/verwijderen en wensen van andere bekijken :).</p>
+  </div>
+</div>
+
 
     </body>
 </html>
